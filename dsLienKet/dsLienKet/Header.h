@@ -79,7 +79,11 @@ void nhapCuaHang(cuaHang &a)
 	f >> a.sdt;
 	f.close();
 }
-void functionQuocDat();
+void functionQuocDat(){
+	cout << "This is a Function quoc dat" << endl;
+	cout << "end" << endl;
+	
+}
 void xuatCuaHang(cuaHang a)
 {
 	cout << "Ten cua hang: " << a.ten << endl;
